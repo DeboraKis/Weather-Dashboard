@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather Dashboard</h1>
+            <p>Check the weather anywhere in the world</p>
+        </header>
+
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Enter city name...">
+            <button id="search-button">Search</button>
+        </div>
+
+        <div class="error-message" id="error-message"></div>
+        
+        <div class="loading" id="loading">
+            <div class="loading-spinner"></div>
+            <p>Loading weather data...</p>
+        </div>
+
+        <div class="saved-locations">
+            <h3>Saved Locations</h3>
+            <div class="saved-locations-list" id="saved-locations-list"></div>
+        </div>
+
+        <div class="weather-display" id="weather-display"></div>
+    </div>
+
+    <script src="./src/app.js"></script>
+</body>
+</html>
