@@ -6,7 +6,7 @@
  * connect to a real weather API.
  */
 
-// You'll need to replace this with your actual API key
+// Will need to replace this with your actual API key
 const API_KEY = 'YOUR_API_KEY';
 const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 
