@@ -1,6 +1,6 @@
 # Weather Dashboard
 
-A modern, responsive weather application for your web development portfolio. This project showcases your ability to work with:
+A modern, responsive weather application for your web development portfolio. This project showcases my ability to work with:
 
 - Modern JavaScript (ES6+)
 - API integration
